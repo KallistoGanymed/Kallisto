@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kallisto - Der geheimnisvolle Mond</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Kallisto</h1>
+            <p>Der geheimnisvolle Mond von Jupiter</p>
+        </div>
+    </header>
+
+    <!-- Circle Divider -->
+    <div class="circle-divider"></div>
+
+    <main>
+        <section class="content">
+            <img src="kallisto.jpg" alt="Kallisto Mond" class="moon-image">
+            <div class="description">
+                <h2>Über Kallisto</h2>
+                <p>
+                   Kallisto ist einer der vier Galileischen Monde des Jupiters und mit einem Durchmesser von etwa 4.821 Kilometern der drittgrößte Mond in unserem Sonnensystem. Er ist etwas kleiner als der Planet Merkur, aber deutlich weniger dicht, da er aus einer Mischung aus Gestein und Eis besteht.Kallisto 			umkreist Jupiter in einer Entfernung von etwa 1,88 Millionen Kilometern und benötigt für einen Umlauf rund 16,7 Erdtage. Im Gegensatz zu den anderen Galileischen Monden zeigt Kallisto keine signifikante geologische Aktivität. Seine Oberfläche ist alt und stark von Einschlagskratern geprägt, 					was ihn zu einem der ältesten Himmelskörper in unserem Sonnensystem macht.
+
+			Die Kraterlandschaft von Kallisto besteht aus hellem Eis und dunklerem Material, das durch Einschläge freigelegt wurde. Unter der eisigen Kruste vermuten Wissenschaftler einen salzigen Ozean, der potenziell Lebensbedingungen bieten könnte.
+
+			Kallisto ist auch ein attraktives Ziel für zukünftige Weltraummissionen, da seine geringe Strahlungsbelastung im Vergleich zu den anderen Monden des Jupiters die Erforschung erleichtert. Seine faszinierende Kombination aus alter Oberfläche und möglichem unterirdischem Ozean macht ihn zu 				einem der spannendsten Objekte in der planetaren Wissenschaft.
+                </p>
+            </div>
+        </section>
+
+        <section class="facts">
+            <h2>Interessante Fakten über Kallisto</h2>
+            <ul>
+                <li>Kallisto hat einen Durchmesser von etwa 4.820 Kilometern.</li>
+                <li>Die Oberfläche besteht aus Eis und Gestein.</li>
+                <li>Er hat keinen aktiven Vulkanismus oder Plattentektonik.</li>
+                <li>Kallisto umkreist Jupiter in einer Entfernung von etwa 1,88 Millionen Kilometern.</li>
+                <li>Die Krater auf seiner Oberfläche stammen aus der Frühzeit des Sonnensystems.</li>
+            </ul>
+        </section>
+
+        <section class="joke-poll">
+            <div class="joke-generator">
+                <h2>Erzähle mir einen Witz</h2>
+                <button id="joke-btn" class="button">Einen Witz anzeigen</button>
+                <p id="joke-text" class="joke"></p>
+            </div>
+
+            <div class="poll">
+                <h2>Umfrage: Sollte Kallisto erforscht werden?</h2>
+                <form id="poll-form">
+                    <label>
+                        <input type="radio" name="poll" value="yes"> Ja
+                    </label>
+                    <label>
+                        <input type="radio" name="poll" value="no"> Nein
+                    </label>
+                    <button type="submit" class="button">Abstimmen</button>
+                </form>
+                <div id="poll-results" class="results hidden">
+                    <p>Ergebnisse:</p>
+                    <div>Ja: <span id="yes-percentage">0%</span></div>
+                    <div>Nein: <span id="no-percentage">0%</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Entdeckung des Universums</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
